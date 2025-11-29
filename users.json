@@ -1,0 +1,9 @@
+{
+  "Ayush H Mane": {
+    "role": "admin",
+    "cred": {
+      "algo": "argon2",
+      "hash": "$argon2id$v=19$m=65536,t=3,p=4$iE7wb1tOGEJGJx3q8cgsWg$q1EYGydI8wuGoREHHrvh3fON33QaHiog/9Q9wBChbHs"
+    }
+  }
+}
