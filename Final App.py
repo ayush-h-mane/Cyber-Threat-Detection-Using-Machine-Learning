@@ -45,16 +45,7 @@ except Exception:
     OPTIONAL['folium'] = False
 
 try:
-import geoip2.database
-
-reader = geoip2.database.Reader("GeoLite2-City.mmdb")
-
-try:
-    response = reader.city(ip_address)
-    lat = response.location.latitude
-    lon = response.location.longitude
-except:
-    lat, lon = None, None
+    from ip2geotools.databases.noncommercial import DbIpCity
     OPTIONAL['ip2geo'] = True
 except Exception:
     OPTIONAL['ip2geo'] = False
@@ -744,5 +735,4 @@ if diag_upload:
             buf.seek(0)
             st.download_button("Download repaired CSV", data=buf, file_name="repaired_for_model.csv", mime="text/csv")
     else:
-
         st.success("No missing columns detected.")
