@@ -1,0 +1,15 @@
+IEEE Research Paper — Cyber Threat Detection Using Machine Learning
+
+Abstract— This paper presents a lightweight intrusion detection system using machine learning and visual analytics.
+I. Introduction
+  Machine learning improves cyberattack detection in modern networks.
+II. Methodology
+  Random Forest, Isolation Forest, preprocessing, visualization.
+III. Results
+  Accurate detection and meaningful visual outputs.
+IV. Conclusion
+  ML-based IDS improves threat visibility.
+
+References
+  [1] CICIDS2017 Dataset
+  [2] Scikit-learn Documentation
